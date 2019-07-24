@@ -50,7 +50,7 @@ class CartPoleEnv(gym.Env):
     }
 
     def __init__(self):
-        self.gravity = 9.8
+        self.gravity = 15.1
         self.masscart = 1.0
         self.masspole = 0.1
         self.total_mass = (self.masspole + self.masscart)
